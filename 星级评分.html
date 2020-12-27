@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>星级评分</title>
+<!--iconfont.css-->
+<link rel="stylesheet" href="./iconfont/iconfont.css">
+<style>
+.on {
+    color: gold;
+    font-size:49px;
+}
+.half {
+    color: gold;
+    font-size:49px;
+}
+.off {
+    color: grey;
+    font-size:49px;
+}
+</style>
+</head>
+<body>
+
+<div class="box1">
+
+</div>
+<div class="box2">
+
+</div>
+<div class="box3">
+
+</div>
+
+
+<!--  引入Jquery.min.js -->
+<script src="../js/jquery-1.11.0.js"></script>
+<script src="../js/starRate.js"></script>
+<script>
+    $(function () {
+    //  var star1 = createStarRate(3.6);
+     // $('.box1').html(star1);
+
+      var star2 = createStarRate(4.7);
+      $('.box2').html(star2);
+
+    //  var star3 = createStarRate(4.2);
+     // $('.box3').html(star3);
+    })
+   
+</script>
+
+
+</body>
+</html>
